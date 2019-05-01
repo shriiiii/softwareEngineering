@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Highlighter | Hillcrest High School</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- favicon -->
+<!-- end of favicon -->
+
+<!-- Boostrap and font awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css"><link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+
+
+
+
+ <style type="text/css">
+
+
+ .navbar {
+     margin-bottom: 0;
+     background-color:rgb(178,50,178);
+     z-index: 1000;
+     border: 0;
+     font-size: 12px !important;
+     line-height: 1.42857143 !important;
+     letter-spacing: 3px;
+     border-radius: 0;
+     font-family: Montserrat, sans-serif;
+ }
+ .navbar li a, .navbar .navbar-brand {
+     color: #fff !important;
+
+ }
+ .navbar-nav li a:hover, .navbar-nav li.active a {
+     color:rgb(178,50,178) !important;
+     background-color: #fff !important;
+   text-align: center;
+ }
+ .navbar-default .navbar-toggle {
+     border-color: transparent;
+     color: #fff !important;
+   text-align: center;
+ }
+
+/* Dropdown Button */
+.dropbtn {
+ background-color: rgb(178,50,178);
+ color: white;
+ padding: 10px;
+ font-size: 14px;
+ border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+ position: relative;
+ display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+ display: none;
+ position: absolute;
+ background-color: #f1f1f1;
+ min-width: 160px;
+ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+ color: black;
+ padding: 12px 16px;
+ text-decoration: none;
+ display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #ff00ff;}
+
+
+
+</style>
+</head>
+
+<body id="main" data-spy="scroll" data-target=".navbar" data-offset="60">
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+         <a class="navbar-brand" href="index.html"><img src="https://cdn.glitch.com/73442f06-3b79-4cfe-9dc7-3cdb78168734%2Ffav.ico?1554812880512" width="50px" /></a>
+    </div>
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+       <div class="dropdown">
+      <button class="dropbtn" onclick="about()">About</button>
+      </div>
+     <div class="dropdown">
+  <button class="dropbtn">SLCs</button>
+  <div class="dropdown-content">
+    <a href="slc.html#biztek">Biztek</a>
+    <a href="slc.html#pre-med">Pre-Med</a>
+    <a href="slc.html#public-service">Public Service</a>
+    <a href="slc.html#theatre#">Theatre</a>
+    <a href="slc.html#teachers#">Teachers of Tomorrow</a>
+    <a href="slc.html#media-arts">Media Arts</a>
+    <a href="slc.html#global-citizens">Global Citizens</a>
+  </div>
+</div>
+ <div class="dropdown">
+  <button class="dropbtn">Sports</button>
+  <div class="dropdown-content">
+    <a href="sports.html#track">Track&Field</a>
+    <a href="sports.html#wrestling">Wrestling</a>
+    <a href="sports.html#gym">Gymnastics</a>
+    <a href="sports.html#basketball">Basketball</a>
+    <a href="sports.html#soccer">Soccer</a>
+    <a href="sports.html#bowling">Bowling</a>
+    <a href="sports.html#tennis">Tennis</a>
+    <a href="sports.html#cross-country">Cross Country</a>
+    <a href="sports.html#baseball">Baseball</a>
+    <a href="sports.html#cricket">Cricket</a>
+  </div>
+</div>
+<div class="dropdown">
+  <button class="dropbtn">Academics</button>
+  <div class="dropdown-content">
+    <a href="academics.html#cte">CTE</a>
+    <a href="academics.html#hillcrest-life">Life at Hillcrest</a>
+    <a href="academics.html#ap">AP for all</a>
+    <a href="academics.html#ap-c">AP Courses</a>
+    <a href="academics.html#extracurricular">ExtraCurriculars</a>
+    <a href="academics.html#clubs">Clubs</a>
+    <a href="academics.html#vei">VEI</a>
+  </div>
+</div>
+<div class="dropdown">
+  <button class="dropbtn">Departments</button>
+  <div class="dropdown-content">
+    <a href="departments.html#english">English</a>
+    <a href="departments.html#math">Mathematics</a>
+    <a href="departments.html#science">Science</a>
+    <a href="departments.html#foreign-language">Foreign Language/LOTE</a>
+    <a href="departments.html#social-studies">Social Studies</a>
+    <a href="departments.html#library">Library</a>
+  </div>
+</div>
+<div class="dropdown">
+      <button class="dropbtn" onclick="calendar()">Calendar</button>
+      </div>
+   <div class="dropdown">
+      <button class="dropbtn" onclick="highlighter()">Highlighter</button>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn" onclick="contact()">Contact</button>
+      </div>
+      <div class="dropdown">
+      <button class="dropbtn" onclick="college()">College</button>
+      </div>
+
+  </div>
+</nav>
+
+
+
+
+</body>
+</html>
